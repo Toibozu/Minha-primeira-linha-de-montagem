@@ -1,0 +1,15 @@
+name: Pipeline CI
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Mensagem de teste
+        run: echo "Workflow funcionando!"
