@@ -1,0 +1,3 @@
+git add .
+git commit -m "Configuração inicial do CI"
+git push origin main
